@@ -1,0 +1,49 @@
+    input{
+        border-radius: 0 !important;
+        outline: none !important;
+       border: none !important;
+       border-bottom: 1px solid black !important;
+       background-color: transparent !important;
+    }
+    #seta{
+        border: none!important;
+        outline: none;
+        
+    }
+    .redes{
+     
+        color: rgb(0, 0, 0);
+    
+    }
+   
+    
+    @media(max-width: 1000px){
+        #ul{
+            display: block !important;  
+            text-align: center !important; 
+        }
+        img{
+           justify-content: center;
+           align-items: center;
+           height: 90px;
+        }
+        #column{     
+            display: block !important;
+            text-align: center !important;   
+        }
+        h5{
+            font-size: 24pt !important;
+        }
+        a{
+           justify-content: center;
+           align-items: center;
+        }
+        #seta{
+            height: 15%;
+        }
+       
+      
+    }
+    
+    
+    
