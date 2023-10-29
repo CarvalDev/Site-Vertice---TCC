@@ -19,12 +19,24 @@
     margin-top: 10px; /* Espaço superior entre a imagem e o conteúdo do card */
     background-size: cover;
     background-position: center;
+   
   }
+.card-body{
+    
+}
+
+card-imgArea{
+
+}
+  
   
   .card{
-      border-radius: 25px !important;
-      box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.25);
+       
+      box-shadow:  8px 10px 15px 0px  rgba(0, 0, 0, 0.25);
+      background-color: #000;
+      color: #fff;
       cursor: pointer;
+      border: none;
   }
   
   .card:hover{
@@ -46,6 +58,10 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 5%;
+}
+
+#squaresBeneficiosDesc{
+    display: none;
 }
 
 
@@ -106,6 +122,9 @@
         justify-content: flex-start;
         
     }
+
+    
+
     #arte{
         display: none;
         height: 0;
@@ -183,6 +202,104 @@
     #imgNossosProjetos{
         height: 40% !important;
     }
+    #frase{
+        height: 60vh !important;
+    }
+    #aspas{
+        height: 80% !important;
+    }
+    #lispector{
+        height: 10% !important;
+    }
 
+    #textoEquipe{
+        
+    }
+
+    #nome{
+        font-size: 30px !important;
+    }
+    #funcao{
+        font-size: 20px !important;
+    }
+    #rede{
+        font-size: 30px !important;
+    }
+
+    #squaresBeneficiosDesc{
+        display: none ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #9219af;
+    }
+
+    #setaArea{
+        justify-content: flex-start;
+        align-items: center;
+        animation: showSeta 0.8s;
+        
+    }
+    #setaArea img{
+        margin-left: 10%;
+    }
+
+    #descArea{
+        justify-content: center;
+        align-items: flex-start;
+        animation: showDesc 1s;
+    }
+}
+
+@keyframes showSeta{
+    from{
+        
+        position: relative;
+        left: -12%;
+        top: 0;
+        
+    }
+   
+
+    to{
+        z-index: 1;
+        position: relative;
+        left: 0%;
+        
+
+    }
+}
+
+@keyframes showDesc{
+    from{
+        
+        position: relative;
+        left: -12%;
+        top: 0;
+        opacity: 0;
+    }
+   
+
+    to{
+        z-index: 1;
+        position: relative;
+        left: 0%;
+        opacity: 1;
+
+    }
+}
+
+@keyframes showSquares{
+    from{
+        position: relative;
+        right: -100%;
+        opacity: 0;
+        top: 0;
+    }
     
+    to{
+        position: relative;
+        right: 0%;
+        opacity: 1;
+    }
 }
