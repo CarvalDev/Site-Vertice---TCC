@@ -1,0 +1,182 @@
+/* como tem varios agr seta é uma classe e nesse tamanho fica pft*/
+.seta {
+    width: 25px !important;
+    height: 20px !important;
+}
+
+/*h5 padrao do bootstrap vem todo lascado cheio de margin, isso tira*/
+.h5 {
+    margin-bottom: 0 !important;
+}
+
+.cardB {
+    box-shadow: 4px 4px 15px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.cardC {
+    width: 100vw;
+    height: 45vh;
+}
+
+.card-img-circle {
+    border-radius: 50%;
+    width: 225px !important;
+    height: 225px !important;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border-radius: 25px !important;
+    box-shadow: 4px 4px 15px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.card:hover {
+    transition: all 0.3s;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-nav {
+    font-size: 50px;
+}
+
+.owl-stage-outer {
+    padding-bottom: 18px !important;
+}
+
+#pg2 {
+    height: 30% !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 1000px) {
+    #itens {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .collapse,
+    .navbar-nav {
+        background-color: #fff !important;
+        height: 100vh !important;
+        width: 40vw !important;
+        z-index: 10;
+        transition: all 0.5s;
+        align-items: center !important;
+    }
+
+    .nav-item a {
+        font-weight: 300 !important;
+        text-align: left !important;
+    }
+
+    .ctt {
+        background-color: transparent !important;
+        color: rgb(0, 0, 0) !important;
+        box-shadow: none !important;
+        font-weight: 300 !important;
+    }
+
+    #espaco {
+        width: 0%;
+    }
+
+    .navbar-toggler {
+        width: 50%;
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    #brand {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    #arte {
+        display: none;
+        height: 0;
+        display: none !important;
+    }
+
+    #slogan {
+        margin-left: 0 !important;
+        justify-content: center !important;
+        width: 100% !important;
+        text-align: center;
+        height: 95% !important;
+    }
+
+    #slogan span {
+        margin: 0 !important;
+        font-size: 4rem !important;
+    }
+
+    #blocos {
+        height: 50% !important;
+        width: 100% !important;
+    }
+
+    .fa-solid {
+        font-size: 50px !important;
+    }
+
+    #seta {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .h5 {
+        margin-bottom: 0 !important;
+    }
+
+    #textQuemSomos {
+        font-size: 16px !important;
+        margin-bottom: 5px;
+    }
+
+    .cardNossosProjetos {
+        margin-bottom: 35px;
+    }
+
+    #pg2 {
+        height: 50% !important;
+        justify-content: start;
+        align-items: start;
+    }
+
+}
+
+/* tava dando um espaço estranho na imagem la e isso funcionou kkkk */
+@media (max-width: 770px) {
+    #pg3 {
+        height: 10% !important;
+        margin-top: 20px !important;
+    }
+}
