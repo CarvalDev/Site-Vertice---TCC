@@ -1,0 +1,57 @@
+#itens{
+   
+    
+}
+
+@media (min-width: 1000px){
+    #itens{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+    
+    }
+}
+
+@media (max-width: 1000px){
+    #espaco{
+        width: 0%;
+    }
+    #navigation{
+        
+    }
+    .navbar-toggler{
+        width: 50%;
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+    #brand{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    #arte{
+        display: none;
+        height: 0;
+        display: none !important;
+    }
+    #slogan{
+       margin-left: 0 !important;
+       justify-content: center !important;
+       width: 100% !important;
+       text-align: center;
+       
+    }
+    #slogan span{
+        margin: 0  !important;
+    }
+}
