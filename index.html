@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vertice - Ligando o Mundo a Você</title>
     <link rel="short icon" href="../Site-Vertice---TCC-main/Img/logoV.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/carrossel.css"><!-- CSS DO CARROSSEL-->
     <script src="https://kit.fontawesome.com/d5ea0dfb99.js" crossorigin="anonymous"></script>
-
-
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         <div class="container  " style="height: 100%;">
             <div style="width: 20%;" id="brand" class=" h-100">
                 <a class="navbar-brand   h-100 d-flex justify-content-start align-items-center">
-                    <img src="./Img/logoNav.png" width="180" height="80" alt="">
+                    <img src="./Img/logoNav.png" width="180px" height="70px" alt=""><!--MUDEI O TAMANHO PRA FICAR BALA-->
                 </a>
             </div>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#itens"
@@ -53,7 +53,7 @@
         </div>
         </div>
     </nav>
-    <section id="principal" class=" d-flex flex-column w-100 m-0" style="height: 300vh;">
+    <section id="principal" class=" d-flex flex-column w-100 m-0" style="height: 350vh;"><!-- MUDEI PRA 350VH PQ N TAVA CABENDO TUDO-->
         <div class="container  d-flex justify-content-center align-items-center flex-column " style="height: 30%;">
             <div id="primeiraParte" class=" row m-0 h-50 w-100">
                 <div class="col-md-6  d-flex align-items-center" style="justify-content: flex-start;">
@@ -72,13 +72,11 @@
             <div id="segundaParte" class=" d-flex flex-column justify-content-center align-items-center h-50 w-100">
                 <div id="segundaParte" class=" d-flex flex-column w-100 justify-content-center align-items-center"
                     style="height: 90%;">
-                    <div id="nossosBeneficios" class="  w-100 d-flex flex-row align-items-center justify-content-start"
-                        style="height: 15%;">
-                        <div class=" d-flex m-0 justify-content-center align-items-center " id="seta"
-                            style="height: 50%; width: 2%;">
-                            <img src="./Img/seta.png" class="w-100 h-100" alt="">
+                    <div class="title  w-100 d-flex flex-row align-items-center justify-content-start my-5" style="height: 15%;"><!-- ATRIBUI TODOS TITULOS PRA CLASSE TITTLE E DEIXEI O TAMANHO DELES PADRAO E DA IMAGEM TBM-->
+                        <div class="seta d-flex m-0 justify-content-center align-items-center ">
+                        <img src="./Img/seta.png"  class="w-100 h-100" alt="">
                         </div>
-                        <span class="ms-2 titleBox" style="font-weight: 500;">NOSSOS BENEFÍCIOS</span>
+                        <span class="mx-2 h5" style="font-weight: 500;">NOSSOS BENEFICIOS</span>
                     </div>
 
                     <div class="row m-0 w-100" style="height: 85%;">
@@ -117,14 +115,13 @@
         </div>
 
         <div id="pg2" class="container d-flex flex-column">
-            <div id="terceiraParte" class=" d-flex flex-column justify-content-center align-items-center h-25 w-100">
+            <div id="terceiraParte" class=" d-flex flex-column justify-content-center align-items-center w-100">
                 <div id="quemSomos" class=" d-flex flex-column w-100 gap-2">
-                    <div id="titleQuemSomos" class="  w-100 d-flex flex-row align-items-center justify-content-start"
-                        style="height: 15%;">
-                        <div class=" d-flex m-0 justify-content-center align-items-center " id="seta">
-                            <img src="./Img/seta.png" class="w-100 h-100" alt="">
+                    <div class="title w-100 d-flex flex-row align-items-center justify-content-start mb-5" style="height: 15%;">
+                        <div class="seta d-flex m-0 justify-content-center align-items-center ">
+                        <img src="./Img/seta.png"  class="w-100 h-100" alt="">
                         </div>
-                        <span class="ms-2 titleBox" style="font-weight: 500;">QUEM SOMOS</span>
+                        <span class="mx-2 h5" style="font-weight: 500;">QUEM SOMOS</span>
                     </div>
                     <p id="textQuemSomos" class="text-justify" style="font-size: 25px;">
                         Somos uma empresa atuante no setor de tecnologia, especializada no desenvolvimento de softwares.
@@ -138,19 +135,16 @@
                 </div>
             </div>
 
-            <div id="quartaParte" class=" d-flex flex-column h-50 w-100">
-            <div id="nossosProjetos" class=" d-flex flex-column w-100 h-100 gap-2">
-                <div id="titleNossosProjetos" class="  w-100 d-flex flex-row justify-content-start align-items-center"
-                    style="height: 10vh;">
-                    <div class=" d-flex m-0 justify-content-center align-items-center " id="seta">
-                        
-                        <img src="./Img/seta.png" class="img-fluid" alt="">
+            <div id="quartaParte" class=" d-flex flex-column w-100">
+                <div class="title  w-100 d-flex flex-row align-items-center justify-content-start my-5" style="height: 15%;">
+                    <div class="seta d-flex m-0 justify-content-center align-items-center ">
+                    <img src="./Img/seta.png"  class="w-100 h-100" alt="">
                     </div>
-                    <span class="ms-2 titleBox" style="font-weight: 500;">NOSSOS PROJETOS</span>
+                    <span class="mx-2 h5" style="font-weight: 500;">NOSSOS PROJETOS</span>
                 </div>
 
-                <div id="BoxCardNossosProjetos" class=" h-50 row justify-content-evenly">
-                    <div class="cardNossosProjetos cardB col-4" style="width: 18rem; height: 28vh;">
+                <div id="BoxCardNossosProjetos" class="row justify-content-evenly h-100"><!--ESSA PARTE TAVA MEIO QUEBRADA E EU DEI UMA ARRUMADA NA RESPONSIVIDADE-->
+                    <div class="cardNossosProjetos cardB col-4" style="width: 18rem; height: 100%;">
                         <div id="imgNossosProjetos" class="justify-content-center align-items-center" style="height: 15vh;">
                             <img class="img-fluid" src="../Site-Vertice---TCC-main/Img/logoNav.png"
                                 alt="Card image cap" >
@@ -161,7 +155,7 @@
                                 of the card's content.</p>
                         </div>
                     </div>
-                    <div class="cardNossosProjetos cardB col-4" style=" width: 18rem; height: 28vh;">
+                    <div class="cardNossosProjetos cardB col-4" style=" width: 18rem; height: 100%;">
                         <div id="imgNossosProjetos" class="justify-content-center align-items-center" style=" height: 15vh;">
                             <img class="img-fluid" src="../Site-Vertice---TCC-main/Img/logoNav.png"
                                 alt="Card image cap" >
@@ -172,7 +166,7 @@
                                 of the card's content.</p>
                         </div>
                     </div>
-                    <div class="cardNossosProjetos cardB col-4" style="width: 18rem; height: 28vh;">
+                    <div class="cardNossosProjetos cardB col-4" style="width: 18rem; height: 100%;">
                         <div id="imgNossosProjetos" class="justify-content-center align-items-center" style="height: 15vh;">
                             <img class="img-fluid" src="../Site-Vertice---TCC-main/Img/logoNav.png"
                                 alt="Card image cap">
@@ -187,19 +181,128 @@
             </div>
         </div>
     </div>
-    <div id="pg3" class="container d-flex flex-column " style="height: 20%;">
+    <div id="pg3" class="container d-flex flex-column" style="height: 16%;">
         <div id="boximgFrase h-25">
     
             <img src="../Site-Vertice---TCC-main/Img/frase.jpg" class="img-fluid" alt="">
+        </div>
+    </div>
+    <div class="container " style="height: 80vh;">
+        <div class="title  w-100 d-flex flex-row align-items-center justify-content-start mb-5" style="height: 15%;">
+            <div class="seta d-flex m-0 justify-content-center align-items-center ">
+            <img src="./Img/seta.png"  class="w-100 h-100" alt="">
+            </div>
+            <span class="mx-2 h5" style="font-weight: 500;">NOSSA EQUIPE</span>
+        </div>
+        <!-- CARROSSEL-->
+        <div class="owl-carousel owl-theme">
+            <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/gabriel.jpeg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">GABRIEL SOUSA</h5><!-- NOME-->
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS and make up the bulk of the card's content.</p><!-- DESCRIÇÃO-->
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/hugo.jpg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">HUGO CARVALHO</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/marcelo.jpg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">MARCELO MARTINS</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/mateus.jpg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">MATEUS SILVA</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/miguel.jpeg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">MIGUEL RAMOS</h5>
+                  <p class="card-text p-3"></p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/moises.jpeg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">MOISÉS HENRY</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/nicolas');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">NICOLAS</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/nicole.jpg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">NICOLLE NOVAES</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/pedro.jpg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">PEDRO ZEFERINO</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/samuel.jpg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">SAMUEL LOPES</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 100%; height: 50vh;">
+                <div class="card-img-circle" style="background-image: url('./Img/vinicius.jpeg');"></div>
+                <div class="card-body">
+                  <h5 class="card-title text-center">VINICIUS ROCHA</h5>
+                  <p class="card-text p-3">Some quick example text to build on the MOISÉS HENRY and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            
         </div>
     </div>
     </section>
     <footer class="w-100 border border-primary " style="height: 100px;"></footer>
 
     <link rel="stylesheet" href="./CSS/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <!--TUDO PRO CARROSSEL FUNCIONAR-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            nav:true,
+            margin:40,
+            responsive:{
+                0:{
+                    items:1
+                },
+                800:{
+                    items:2
+                },
+                1200:{
+                    items:3
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
