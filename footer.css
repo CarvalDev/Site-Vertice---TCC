@@ -1,16 +1,16 @@
-    input{
+    .inputFooter{
         border-radius: 0 !important;
         outline: none !important;
        border: none !important;
        border-bottom: 1px solid black !important;
        background-color: transparent !important;
     }
-    #seta{
+    #setaFooter{
         border: none!important;
         outline: none;
         
     }
-    .redes{
+    .redesFooter{
      
         color: rgb(0, 0, 0);
     
@@ -18,27 +18,27 @@
    
     
     @media(max-width: 1000px){
-        #ul{
+        #ulFooter{
             display: block !important;  
             text-align: center !important; 
         }
-        img{
+        .imgFooter{
            justify-content: center;
            align-items: center;
            height: 90px;
         }
-        #column{     
+        #columnFooter{     
             display: block !important;
             text-align: center !important;   
         }
-        h5{
+        .h5Footer{
             font-size: 24pt !important;
         }
-        a{
+        .aFooter{
            justify-content: center;
            align-items: center;
         }
-        #seta{
+        #setaFooter{
             height: 15%;
         }
        
