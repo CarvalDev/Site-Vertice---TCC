@@ -11,9 +11,9 @@
 }
 
 .card-img-circle {
-    border-radius: 50%;
-    width: 225px !important; /* Largura desejada para a imagem circular */
-    height: 225px !important; /* Altura desejada para a imagem circular */
+    border-radius: 100%;
+    width: 45% !important; /* Largura desejada para a imagem circular */
+    height: 100% !important; /* Altura desejada para a imagem circular */
     margin: 0 auto; /* Centralizar horizontalmente a imagem */
     display: block;
     margin-top: 10px; /* Espaço superior entre a imagem e o conteúdo do card */
@@ -42,9 +42,10 @@
 }
 
 #pg2{
-    height: 30% !important;
-    justify-content: center;
+    
+    justify-content: flex-start;
     align-items: center;
+    margin-top: 5%;
 }
 
 
@@ -151,14 +152,36 @@
         margin-bottom: 5px;
     }
 
-    .cardNossosProjetos{
-        margin-bottom: 35px;
-    }
+    
     
     #pg2{
         height:50% !important;
         justify-content: start;
         align-items: start;
+    }
+
+    #quartaParte{
+        height: 130vh !important;
+    }
+
+    #title{
+        height: 10vh !important;
+    }
+    #BoxCardNossosProjetos{
+        height: 200vh !important;
+        width: 100% !important;
+        justify-self: center !important;
+        align-self: center !important;
+    }
+    .cardNossosProjetos{
+        height: 30% !important;
+    }
+
+    .card-body{
+        height: 60% !important;
+    }
+    #imgNossosProjetos{
+        height: 40% !important;
     }
 
     
